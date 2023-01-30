@@ -11,4 +11,5 @@ public class WelcomeController {
 	{
 		return "welcome to docker CI CD pipeline demo";
 	}
+	
 }
