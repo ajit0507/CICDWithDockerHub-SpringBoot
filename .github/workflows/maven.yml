@@ -31,8 +31,8 @@ jobs:
         
     - name: Build with Maven
       run: mvn clean install
-    -name: Build & push Docker image
-     with:
+    - name: Build & push Docker image
+      with:
       image: ajitshivajipatil/cicd-github-springboot
       tags: latest
       registry: docker.io
